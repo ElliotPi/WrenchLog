@@ -82,6 +82,16 @@ cmd /c npm run build
 cmd /c npm run preview
 ```
 
+## Additional Features Implemented
+
+- Custom hooks for app state access and VIN decoding
+- Tailwind CSS styling system for responsive UI
+- Recharts integration for dashboard maintenance cost visualization
+- Seed demo data for first-time app experience
+- Form validation with `zod` and `react-hook-form`
+- Vehicle photo upload and primary photo selection
+- Local persistence with browser `localStorage`
+
 ## Notes
 
 - This is currently a front-end-only project
