@@ -28,17 +28,6 @@ The application theme is a garage-style maintenance tracker called **WrenchLog**
 - Persist data across refreshes with `localStorage`
 - Responsive layout for desktop and mobile
 
-## Technologies Used
-
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-- React Router
-- React Hook Form
-- Zod
-- Recharts
-
 ## API Used
 
 ### NHTSA vPIC API
@@ -101,31 +90,6 @@ cmd /c npm run build
 cmd /c npm run preview
 ```
 
-## Project Structure
-
-```text
-src/
-  app/
-  components/
-  context/
-  hooks/
-  pages/
-  services/
-  styles/
-  types/
-  utils/
-```
-
-This structure keeps routing, UI components, hooks, services, types, and utilities separated for readability and maintainability.
-
-## Additional Features Implemented
-
-- Custom hooks for app state access and VIN decoding
-- Tailwind CSS styling system for responsive UI
-- Recharts integration for maintenance cost visualization
-- Seed demo data for first-time app experience
-- Validation with `zod`
-- Photo upload support using browser file APIs
 
 ## Notes
 
@@ -133,10 +97,3 @@ This structure keeps routing, UI components, hooks, services, types, and utiliti
 - Data is stored locally in the browser, so different browsers or devices will not automatically share the same records
 - The app includes seeded starter data the first time it loads if no saved data exists
 
-## Repository
-
-GitHub repository:
-
-```text
-https://github.com/ElliotPi/WrenchLog
-```
