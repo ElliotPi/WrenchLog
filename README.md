@@ -82,10 +82,24 @@ cmd /c npm run build
 cmd /c npm run preview
 ```
 
-
 ## Notes
 
 - This is currently a front-end-only project
 - Data is stored locally in the browser, so different browsers or devices will not automatically share the same records
 - The app includes seeded starter data the first time it loads if no saved data exists
 
+## Repository
+
+GitHub repository:
+
+```text
+https://github.com/ElliotPi/WrenchLog
+```
+
+## Live Demo
+
+Deployed application:
+
+```text
+https://wrench-log.vercel.app/
+```
