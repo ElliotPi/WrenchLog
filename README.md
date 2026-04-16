@@ -4,17 +4,9 @@ WrenchLog is a single-page React web application for tracking DIY vehicle mainte
 
 ## Project Description
 
-This project was built for an IS 542 React Web Development semester project. It is a front-end-only application built with React and TypeScript that demonstrates:
+The purpose of WrenchLog is to help vehicle owners, especially people who do their own maintenance and repairs, keep organized digital records of their vehicles and service history in one place. Instead of relying on paper notes, memory, or scattered receipts, users can store important maintenance details such as mileage, service type, cost, notes, and photos in a simple garage dashboard.
 
-- component-based UI design
-- typed state management with `useReducer` and context
-- routing with `react-router-dom`
-- form handling and validation with `react-hook-form` and `zod`
-- third-party API integration
-- local persistence using `localStorage`
-- responsive styling with Tailwind CSS
-
-The application theme is a garage-style maintenance tracker called **WrenchLog**.
+The app is designed to make vehicle recordkeeping more practical and less repetitive. Users can create a vehicle profile, decode VIN information to reduce manual entry, and maintain a running log of maintenance events over time. The overall goal is to provide a useful tool that makes it easier to track work performed on a vehicle, review maintenance history, and stay organized as a car owner.
 
 ## Features
 
